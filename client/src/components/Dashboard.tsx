@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import dayjs from "dayjs";
 import weekOfYear from "dayjs/plugin/weekOfYear";
-import { Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import type { RootState, AppDispatch } from "../redux/store";
 import { addHabit, toggleHabit, switchType } from "../redux/slices/habitSlice";
@@ -100,7 +99,7 @@ const Dashboard: React.FC = () => {
 
         {/* Maping List of all habits */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {habits.map((habit: Habit) => (
+          {habits.map((habit) => (
             <div
               key={habit.id}
               className="bg-white p-5 rounded-xl shadow-md hover:shadow-lg transition flex flex-col gap-3"
