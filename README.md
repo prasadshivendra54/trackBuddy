@@ -1,64 +1,77 @@
-TrackBuddy – Habit Tracker (MERN + TypeScript)
+## TrackBuddy – Habit Tracker (MERN with TypeScript)
 
 A MERN stack web app to track daily & weekly habits with streaks and history.
 
+
 Live Demo: https://trackbuddy-ten.vercel.app
 
-App: [TrackBuddy](https://trackbuddy-ten.vercel.app/)
+GitHub Repo: https://github.com/prasadshivendra54/trackBuddy
 
-Backend: [API](https://track-buddy.vercel.app/)
+
 
 Features
 
-Add multiple habits (daily or weekly).
+Add multiple habits (daily/weekly)
 
-Track current streak and longest streak.
+Track current & longest streaks
 
-Back-fill missed days.
+Back-fill missed days
 
-Data saved in localStorage + MongoDB.
+Data stored in localStorage + MongoDB
 
-User authentication with JWT.
+Authentication with JWT
+
 
 Tech Stack
 
 Frontend: React, TypeScript, Redux Toolkit, TailwindCSS
-
 Backend: Node.js, Express.js, MongoDB, JWT
-
 Deployment: Vercel
 
 
+Setup Locally
 
-⚙️ Setup Locally
-
-1, Clone Repo
+# Clone repo
 git clone https://github.com/prasadshivendra54/trackBuddy.git
-cd trackbuddy
+cd trackBuddy
 
-2, Backend
+### Backend
+
 cd server
 npm install
 
-Create .env
 
+Create .env file
 
 PORT=5000
 URI=your-mongodb-uri
 JWT_SECRET=your-secret-key
 
+
+Run
+
 npm run dev
 
+-------------------------------
 
---------------
+### Frontend
 
-Frontend
 cd ../client
 npm install
 
 
-Create .env
+Create .env file
+
+VITE_BACKEND_URL=http://localhost:5000 
+
+OR
+
+VITE_BACKEND_URL=https://track-buddy.vercel.app
 
 
-VITE_BACKEND_URL=http://localhost:5000
+Run
+
 npm run dev
+
+
+--------
