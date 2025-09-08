@@ -2,11 +2,11 @@ TrackBuddy – Habit Tracker (MERN + TypeScript)
 
 A MERN stack web app to track daily & weekly habits with streaks and history.
 
-Live Demo
+Live Demo: https://trackbuddy.vercel.app/
 
-App: [TrackBuddy](https://trackbuddy-five.vercel.app/)
+App: [TrackBuddy](https://trackbuddy.vercel.app/)
 
-Backend: [API](https://trackbuddy-five.vercel.app/)
+Backend: [API](https://track-buddy.vercel.app/)
 
 Features
 
